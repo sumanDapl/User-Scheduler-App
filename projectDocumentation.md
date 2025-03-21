@@ -28,7 +28,7 @@ The **User Scheduler App** is a Laravel-based application designed to fetch rand
 ### 3. **Filter and Retrieve User Data**
 - **Functionality**: Allows filtering user data by gender, city, and country, with the ability to specify the number of records and fields to return.
 - **Implementation**:
-  - The `getFilteredUsers` function processes POST requests to filter and retrieve user data.
+  - The `getFilteredUsers` function processes GET requests to filter and retrieve user data.
   - Joins the `users`, `users_details`, and `locations` tables to fetch related data.
   - Supports dynamic field selection and limits the number of records returned.
 
